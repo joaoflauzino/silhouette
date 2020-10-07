@@ -1,0 +1,4 @@
+Nome;Matrícula
+Cássio de Alcantara;1192XESP043
+João Lucas Flauzino Cassiano;11922CCP006
+Lara Mondini de Freitas;1192XESP049
