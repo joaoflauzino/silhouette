@@ -5,8 +5,6 @@ from sklearn import metrics
 from collections import Counter
 import argparse
 from scipy.spatial.distance import euclidean
-from sklearn.metrics import silhouette_score
-
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -102,4 +100,3 @@ if __name__ == "__main__":
 
         # Print Silhouette
         print("Silhouette value for {} group is: ".format(str(n_cluster)), silhouette_metric(x.to_numpy(), Model.labels_))
-        print("Silhouette (sklearn) value  for {} group is: ".format(str(n_cluster)), silhouette_score(x, Model.labels_))

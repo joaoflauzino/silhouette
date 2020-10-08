@@ -13,7 +13,7 @@
         dec - identificador de casa decimal ("." é o padrão)
 
     - exemplo de chamada do código no prompt:
-        python purity.py -inputFile iris.csv -sep , -dec .
+        python silhouette.py -inputFile iris.csv -sep , -dec .
 
     - o código irá printar o resultado da silhueta para cada iteração na tela
 
