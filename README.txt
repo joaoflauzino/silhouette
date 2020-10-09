@@ -15,7 +15,7 @@
     - exemplo de chamada do código no prompt:
         python silhouette.py -inputFile iris.csv -sep , -dec .
 
-    - o código irá printar o resultado da silhueta para cada iteração na tela
+    - o código irá printar o resultado da silhueta simplificada e silhueta normal para cada iteração na tela
 
     - é necessário que tenha as bibliotecas scipy, argparse, pandas, sklearn e numpy instaladas no ambiente, caso não tenha, instalar utilizando os seguintes comandos no prompt:
 
