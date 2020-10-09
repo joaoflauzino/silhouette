@@ -123,11 +123,11 @@ if __name__ == "__main__":
         # Getting centroids
         centroids = [Model.cluster_centers_ [i] for i in Model.labels_]
 
-        # Calling function to calculate centroid
+        # Calling function to calculate silhouette
         silhouette_centroid, silhouette = silhouette_metric(x.to_numpy(), Model.labels_, centroids)
 
         # Print values
-        print("Simplify Silhouette value for {} group is: ".format(str(n_cluster)), silhouette_centroid)
-        print("Silhouette value for {} group is: ".format(str(n_cluster)), silhouette)
+        print("Simplify Silhouette value for {} groups is: ".format(str(n_cluster)), silhouette_centroid)
+        print("Silhouette value for {} groups is: ".format(str(n_cluster)), silhouette)
         print('-------------------------------------------------------------------------------')
 
