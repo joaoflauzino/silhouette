@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as np
+np.seterr(divide='ignore', invalid='ignore', all='warn')
 from sklearn.cluster import KMeans
 from sklearn import metrics
 from collections import Counter
 import argparse
 from scipy.spatial.distance import euclidean
-np.seterr(divide='ignore', invalid='ignore', all='warn')
 
 def get_args():
     parser = argparse.ArgumentParser()
